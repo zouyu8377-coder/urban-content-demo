@@ -4,6 +4,8 @@
 
 **[在线体验](https://zouyu8377-coder.github.io/urban-content-demo/)** · [维护与发布](docs/maintenance.md) · [数据结构](docs/data.md)
 
+新增研究样例：[两个真实项目的三层结构与关系模板](docs/three-layer-examples.md)。包含原文依据、归纳判断、候选归属和可复用表格；尚未接入在线 demo。
+
 ## 当前版本
 
 面向浏览者的网页只保留泳道图和实际 demo；设计说明与维护文档放在本仓库。
