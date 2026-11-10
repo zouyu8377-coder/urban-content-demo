@@ -9,21 +9,11 @@
 <style>
 :root{color-scheme:light;--ink:#24372d;--dim:#63736a;--line:#dce5dc;--green:#2c6048;--soft:#edf3ed;--paper:#fff;--back:#f6f7f3}*{box-sizing:border-box}body{margin:0;background:var(--back);color:var(--ink);font:16px/1.8 system-ui,-apple-system,'Microsoft YaHei',sans-serif}a{color:var(--green);text-underline-offset:4px}header,main,footer{max-width:1160px;margin:auto;padding-left:28px;padding-right:28px}header{padding-top:48px;padding-bottom:30px}nav{display:flex;gap:24px;flex-wrap:wrap;font-size:14px;margin-bottom:30px}.eyebrow{font-size:13px;color:var(--green);letter-spacing:2px}h1{font-size:clamp(27px,4vw,42px);line-height:1.35;font-weight:600;margin:10px 0 18px}h2{font-size:24px;font-weight:600;margin:0 0 14px}h3{font-size:17px;margin:0 0 8px;font-weight:600}p{margin:0 0 16px}.lead{max-width:800px;font-size:18px;color:var(--dim)}section{padding:32px 0;border-top:1px solid var(--line);scroll-margin-top:18px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.block{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:22px}.block p{font-size:14px;color:var(--dim);margin:0}.muted{font-size:14px;color:var(--dim)}.badge{display:inline-block;font-size:12px;color:var(--green);background:var(--soft);padding:3px 9px;border-radius:5px;margin-right:6px}.callout{padding:18px 22px;border-left:3px solid var(--green);background:var(--soft);font-size:14px;margin:20px 0}.diagram{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--paper);margin:18px 0}.diagram svg{display:block;width:100%;min-width:900px;height:auto}.diagram text{font-family:system-ui,'Microsoft YaHei',sans-serif;fill:var(--ink);font-size:15px}.diagram .lane{fill:#f2f5ef}.diagram .lane2{fill:#fff}.diagram .node{fill:#fff;stroke:#9eb6a6;stroke-width:1.4}.diagram .flow{fill:none;stroke:#547d64;stroke-width:1.6;marker-end:url(#arrow)}.diagram .small{font-size:12px;fill:var(--dim)}iframe{width:100%;height:1260px;display:block;border:1px solid var(--line);border-radius:10px;background:#fff}.demo-head{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;border:1px solid var(--green);border-radius:5px;text-decoration:none;padding:7px 13px;font-size:14px}.steps{padding-left:21px;font-size:14px;color:var(--dim)}li{margin:6px 0}.feedback{font-size:15px;padding-left:23px}footer{padding-top:24px;padding-bottom:36px;font-size:12px;color:var(--dim)}@media(max-width:680px){header,main,footer{padding-left:18px;padding-right:18px}header{padding-top:28px}.grid{grid-template-columns:1fr;gap:12px}section{padding:25px 0}iframe{height:1700px}.lead{font-size:16px}nav{gap:18px}}
 </style>
+<style>main{padding-top:24px;padding-bottom:24px}section{padding:0;border:0}.diagram{margin:0 0 24px}#demo .demo-head{justify-content:flex-end;margin-bottom:12px}@media(max-width:680px){main{padding-top:18px;padding-bottom:18px}section{padding:0}}</style>
 </head>
 <body>
-<header>
-<nav aria-label="页面导航"><a href="#idea">设计思路</a><a href="#roles">人机分工</a><a href="#demo">体验原型</a><a href="#feedback">讨论问题</a></nav>
-<div class="eyebrow">城市设计资料整理 / 产品讨论稿</div>
-<h1>把散落在文册里的内容，<br>整理成能继续使用的项目资料。</h1>
-<p class="lead">从一个小问题开始：团队能否少花些时间翻找文档、复制内容和核对出处？这个原型用东莞和京张两个项目的部分真实材料，尝试一套轻量的整理方式。</p>
-<span class="badge">早期原型</span><span class="badge">两个真实项目</span><span class="badge">34 条选取记录</span>
-</header>
 <main>
-<section id="idea"><h2>第一版先做什么</h2><p>将项目策划、设施配置、设计策略和图件说明整理为统一记录。每条记录保留<strong>名称、类型、所属位置、内容、来源</strong>，用户能搜索、筛选、修改，并对照原文。</p>
-<div class="grid"><article class="block"><h3>整理更省力</h3><p>AI 辅助读取材料、拆分记录和初填字段，减少从文档复制到表格的重复工作。</p></article><article class="block"><h3>日常更好找</h3><p>按项目和类型查找，用关键词搜索内容；分类或摘要不合适时，直接修改记录。</p></article><article class="block"><h3>依据保留下来</h3><p>来源页码和原页面跟随记录保存，建议、估算与适用条件也随内容保留。</p></article></div>
-<div class="callout"><strong>当前边界：</strong>这里展示的是整理后的使用效果。34 条记录由 AI 辅助并结合原文预先整理；自动上传与提取尚未接入。原型先验证资料组织方式，不包含审批、汇报生成或团队协作流程。</div>
-</section>
-<section id="roles"><h2>人、AI、系统分别做什么</h2><p>AI 负责初步整理，人按需要修正，系统负责保存和检索。下图是拟议流程；当前 demo 主要覆盖“结构化资料表”及之后的使用。</p><div class="diagram" role="img" aria-label="三条泳道：用户选择材料并修正内容，AI提取和初填字段，系统保存记录并提供查询与原文对照。手机可横向滚动。">
+<section id="roles"><div class="diagram" role="img" aria-label="三条泳道：用户选择材料并修正内容，AI提取和初填字段，系统保存记录并提供查询与原文对照。手机可横向滚动。">
 <svg viewBox="0 0 1080 455" xmlns="http://www.w3.org/2000/svg">
 <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#547d64"/></marker></defs>
 <rect class="lane" width="1080" height="140"/><rect class="lane2" y="140" width="1080" height="140"/><rect class="lane" y="280" width="1080" height="175"/>
@@ -41,17 +31,12 @@
 <path class="flow" d="M300 74H390V180"/><path class="flow" d="M460 212H495"/><path class="flow" d="M650 212H757V106"/>
 <path class="flow" d="M757 106V165H858V300H757V318"/><path class="flow" d="M835 353H868V128H970V106"/><path class="flow" d="M970 106V318"/>
 <text x="510" y="420" class="small">当前 demo：已预先完成选取内容的整理，体验资料表、编辑和原文对照。</text>
-</svg></div><p class="muted">手机上可横向滑动查看泳道图。AI 不补造缺失数据；来源和限定条件随记录保留。</p>
+</svg></div>
 </section>
-<section id="demo"><div class="demo-head"><h2>试着整理和查找</h2><a class="button" href="demo.html" target="_blank" rel="noopener">单独打开 demo ↗</a></div>
-<ol class="steps"><li>切换“东莞潮玩文旅”和“京张 AI 创新带”，比较不同材料如何放进同一张表。</li><li>选择“两个项目一起查”，试搜“人才”“学院”或“共享”。</li><li>点开一条记录，修改内容，或点击“对照原文”“放大页面”核对出处。</li></ol>
-<p class="muted">本次范围：东莞 12 个产品策划与 2 项图件说明；京张 17 项设施配置、2 项图件说明和 1 项设计策略。仅包含选取内容及 18 张压缩页面预览，未上传完整 PDF。</p>
+<section id="demo"><div class="demo-head"><a class="button" href="demo.html" target="_blank" rel="noopener">单独打开 demo ↗</a></div>
 <iframe id="demo-frame" src="demo.html" title="城市设计真实材料整理demo" loading="lazy"></iframe>
-<p class="muted" style="margin-top:12px">修改保存在当前浏览器本地；不会改动原 PDF，也不会同步给其他访问者。此页不收集反馈或上传文件。</p>
 </section>
-<section id="feedback"><h2>希望听听你的实际感受</h2><ul class="feedback"><li>这张表里的内容颗粒度是否合适？哪些应该拆开、哪些应该放在一起？</li><li>名称、类型、所属位置、内容、来源这五项，是否够日常整理使用？</li><li>相比现在的文件夹和文册，查找和维护是否更省事？最希望先改善哪个环节？</li></ul><p class="muted">这是一份用于讨论的初版。可以直接把感受反馈给分享此页面的朋友。</p></section>
 </main>
-<footer>项目资料整理 · 轻量产品原型 / 真实内容选取与整理示例 / 2026-11-10</footer>
 <script>
 const frame=document.getElementById('demo-frame');
 function resizeDemo(){try{const doc=frame.contentDocument;frame.style.height=Math.max(700,Math.ceil(doc.body.scrollHeight+24))+'px'}catch{}}
