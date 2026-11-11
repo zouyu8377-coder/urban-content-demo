@@ -1,90 +1,77 @@
-# 城市设计资料整理
+# 城市设计项目内容拆解
 
-一个用于讨论城市设计资料结构化管理的轻量产品原型。将文册中的内容整理成可搜索、可修改、能对照原文的记录，先验证这种组织方式是否有助于日常工作。
+一个从整个项目出发，将资料按“品牌认知、组织逻辑、空间项目”三层展开，再拆到细颗粒度素材的产品原型。
 
-**[在线体验](https://zouyu8377-coder.github.io/urban-content-demo/)** · [维护与发布](docs/maintenance.md) · [数据结构](docs/data.md)
+**[在线体验](https://zouyu8377-coder.github.io/urban-content-demo/)** · [单独打开 Demo](https://zouyu8377-coder.github.io/urban-content-demo/demo.html) · [维护与发布](docs/maintenance.md) · [数据结构](docs/data.md)
 
-新增研究样例：[两个真实项目的三层结构与关系模板](docs/three-layer-examples.md)。包含原文依据、归纳判断、候选归属和可复用表格；尚未接入在线 demo。
+## 当前版本：项目全貌 → 内容对象 → 素材
 
-## 当前版本
+默认入口为项目全貌。选择东莞或京张项目，可以逐级展开：
 
-面向浏览者的网页只保留泳道图和实际 demo；设计说明与维护文档放在本仓库。
+```mermaid
+flowchart TD
+    P[整个项目] --> B[品牌认知]
+    P --> O[组织逻辑]
+    P --> S[空间项目]
+    B --> B1[定位依据、目标人群、母题与表达]
+    O --> O1[核心叙事与行动计划]
+    S --> S1[空间单元、空间产品、具体项目及设施配置]
+    B1 --> M[细颗粒度素材]
+    O1 --> M
+    S1 --> M
+    M --> T[文字、任务、指标、条件与图件]
+    M --> R[来源页码、原文片段与页面预览]
+```
+
+图中的线表示组成与拆解。品牌与叙事、行动与项目之间的支撑关系作为独立关联记录，在选中对象后按需展开，不代替项目内容树。
 
 已支持：
 
-- 切换项目或跨项目搜索，按内容类型筛选。
-- 查看和修改记录的名称、类型、所属位置及内容。
-- 查看来源文件名、PDF 页码、原文片段和压缩页面预览。
-- 在当前浏览器保存修改，刷新后继续使用。
+- 按三层结构展开分类、内容对象与子项目。
+- 从一个对象查看其文字、任务、指标、条件、图件及出处。
+- 当前项目内的素材搜索，及辅助素材表视图。
+- 修改素材名称、内容、类型和所属对象，保存到浏览器本地。
+- 恢复单条素材的初始整理稿。
+- 查看部分对象的归纳支撑关系。
 
-自动上传、AI 提取、多人协作和汇报生成尚未接入。目前的记录是结合真实材料预先整理的选取结果，并非全量导入。
+自动上传与 AI 提取尚未接入。当前结构与素材由真实材料预先整理，不代表全册已拆解，也未核实方案审定或实施状态。
 
-## 设计思路
+## 示例范围
 
-统一管理五项基础信息：**名称、类型、所属位置、内容、来源**。资料先进入同一张表，用户按需要修正；数据的建议、估算、适用条件和原始出处随内容保留。
+| 项目 | 内容对象 | 素材 | 当前范围 |
+| --- | ---: | ---: | --- |
+| 东莞潮玩文旅 | 28 | 107 | 品牌与组织逻辑选取样例、6 个空间范围记录、12 个空间产品及2个子项目 |
+| 京张 AI 创新带 | 33 | 64 | 品牌与组织逻辑选取样例、空间范围、3项空间项目、17项设施配置建议 |
+| 合计 | 61 | 171 | 39 张被引用页面的压缩预览 |
 
-```mermaid
-flowchart LR
-    A[项目材料] --> B[内容拆分与字段整理]
-    B --> C[项目资料表]
-    C --> D[搜索与筛选]
-    C --> E[查看与修改]
-    C --> F[原文与页面对照]
-    E --> C
-```
+“素材”是本次拆分后的管理单元，不等于文档原有条目数量。空间产品与子项目采用父子结构；设施配置建议保持建议性质，不视为已落位的建成设施。
 
-## 人、AI 与系统的分工
-
-下图是拟议流程；当前 demo 主要实现资料表及其后的浏览、修改与来源对照。
-
-```mermaid
-sequenceDiagram
-    actor U as 人类用户
-    participant A as AI 整理助手
-    participant S as 资料管理系统
-    U->>S: 选择项目与材料
-    S->>A: 提供材料及整理字段
-    A->>A: 识别内容并拆分记录
-    A->>S: 初填字段、保留来源及限定条件
-    Note over A: 不确定的信息标注待确认，不补造缺失数据
-    S-->>U: 展示结构化资料表
-    opt 按需修正
-        U->>S: 修改、补充或调整分类
-        S->>S: 保存修改，保留原始来源
-    end
-    U->>S: 搜索、筛选、查阅
-    S-->>U: 返回内容与原文页面
-```
-
-## 示例材料
-
-| 项目 | 记录数量 | 选取范围 |
-| --- | ---: | --- |
-| 东莞潮玩文旅 | 14 | B 册 12 个产品策划，以及 A 册 2 项图件说明 |
-| 京张 AI 创新带 | 20 | 17 项设施配置、2 项图件说明、1 项设计策略 |
-
-合计 34 条记录，附 18 张压缩页面预览。未上传完整 PDF；分类、摘要与图件用途说明包含本次整理的归纳。数值沿用对应页面口径，不代表已核定结果。
+先前的 [三层关系研究样例](docs/three-layer-examples.md) 保留为建模依据，其中23个对象、22条关系是另一组选取的分析样本，与当前页面的内容对象和素材数量不等同。
 
 ## 代码结构
 
 ```text
 urban-content-demo/
-├── index.html             # 分享入口：泳道图、嵌入式 demo
-├── demo.html              # 独立 demo：界面、记录数据、页面预览
-├── .nojekyll              # GitHub Pages 直接发布静态文件
-├── .gitattributes         # 统一文本文件换行
-├── .gitignore             # 排除本地临时文件
-├── README.md              # 仓库首页
-└── docs/
-    ├── data.md            # 字段含义与内容维护约定
-    └── maintenance.md     # 预览、更新、发布与检查步骤
+├── index.html                    # 分享页：泳道图和实际 Demo
+├── demo.html                     # 项目拆解应用入口
+├── assets/
+│   ├── app.css                   # 结构树、素材与详情样式
+│   ├── app.js                    # 展开、检索、编辑、本地保存
+│   └── previews/                 # 被引用 PDF 页面的 JPEG 预览
+├── data/
+│   └── content.json              # 项目、分类、对象、素材与来源数据
+├── scripts/
+│   ├── prepare-structure-sample.py # 从既有提取缓存准备样例
+│   └── render-previews.py         # 用原始 PDF 渲染被引用页
+├── docs/                         # 数据说明、维护方式与研究样例
+├── .nojekyll
+├── .gitattributes
+└── .gitignore
 ```
 
-当前为原生 HTML、CSS、JavaScript，无框架、构建步骤或后端依赖。页面预览以图片数据内嵌在 `demo.html`，运行时无需外部 CDN。
+原生 HTML、CSS、JavaScript，无框架、构建步骤或运行时 CDN。完整 PDF 不在仓库中。
 
 ## 本地预览
-
-需要 Git；本地预览可使用 Python 3。
 
 ```shell
 git clone https://github.com/zouyu8377-coder/urban-content-demo.git
@@ -92,25 +79,25 @@ cd urban-content-demo
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-打开 [本地页面](http://localhost:8765/)。按 `Ctrl+C` 停止服务。
+打开 [本地分享页](http://localhost:8765/) 或 [独立 Demo](http://localhost:8765/demo.html)。数据通过同源请求载入，需要 HTTP 服务；不要直接双击 HTML 文件。
 
-## 更新代码并发布
+## 更新与同步
 
-开始修改前先同步远程代码：
-
-```shell
-git pull --ff-only
-```
-
-修改后本地预览，确认页面和 demo 正常，再提交：
+修改前确认工作区情况并同步远程代码：
 
 ```shell
 git status
-git add index.html demo.html README.md docs .gitignore .gitattributes
+git pull --ff-only
+```
+
+通常直接编辑 `data/content.json`、`assets/app.js` 或 `assets/app.css`，无需重跑材料整理脚本。本地验证后：
+
+```shell
+git add index.html demo.html assets data scripts README.md docs
 git commit -m "Describe the change"
 git push origin main
 ```
 
-GitHub Pages 从 `main` 分支根目录发布；推送后自动部署。可在 [Actions](https://github.com/zouyu8377-coder/urban-content-demo/actions) 查看进度，部署完成后使用同一在线地址访问。
+GitHub Pages 从 `main` 分支根目录自动发布，可在 [Actions](https://github.com/zouyu8377-coder/urban-content-demo/actions) 查看进度。
 
-**网页中的“保存修改”只写入浏览器本地，不会修改 Git 仓库，也不会发布给其他人。** 要更新所有访问者看到的初始内容，需要修改 `demo.html` 中的数据并提交。细节见 [维护与发布](docs/maintenance.md)。
+**页面中的保存只写入当前浏览器，不会同步回 Git 仓库或其他访问者。** 共享默认内容必须修改源码数据并提交。新版使用独立本地存储键，不覆盖旧版演示修改；旧版修改未自动迁移。详见 [数据说明](docs/data.md)。

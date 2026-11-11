@@ -1,0 +1,3698 @@
+{
+  "schemaVersion": 2,
+  "projects": [
+    {
+      "id": "dg",
+      "name": "东莞潮玩文旅",
+      "subtitle": "制造资源、产业创新与文旅体验",
+      "coverage": "12个空间产品及部分子项目；品牌、叙事与行动选取样例。非全册拆解。"
+    },
+    {
+      "id": "jz",
+      "name": "京张 AI 创新带",
+      "subtitle": "品牌认知、校城协作与空间更新",
+      "coverage": "品牌与组织逻辑选取样例，含3项空间项目与17项设施配置。非全册拆解。"
+    }
+  ],
+  "layers": [
+    {
+      "id": "brand",
+      "name": "品牌认知",
+      "subtitle": "价值、人群与地方表达"
+    },
+    {
+      "id": "organization",
+      "name": "组织逻辑",
+      "subtitle": "核心叙事与行动计划"
+    },
+    {
+      "id": "space",
+      "name": "空间项目",
+      "subtitle": "空间单元与具体内容"
+    }
+  ],
+  "groups": [
+    {
+      "id": "dg-context",
+      "project": "dg",
+      "layer": "brand",
+      "name": "定位依据与目标人群",
+      "open": false
+    },
+    {
+      "id": "dg-theme",
+      "project": "dg",
+      "layer": "brand",
+      "name": "品牌母题",
+      "open": true
+    },
+    {
+      "id": "dg-expression",
+      "project": "dg",
+      "layer": "brand",
+      "name": "语言与视觉表达",
+      "open": false
+    },
+    {
+      "id": "dg-narratives",
+      "project": "dg",
+      "layer": "organization",
+      "name": "核心叙事",
+      "open": true
+    },
+    {
+      "id": "dg-actions",
+      "project": "dg",
+      "layer": "organization",
+      "name": "行动计划",
+      "open": false
+    },
+    {
+      "id": "dg-units",
+      "project": "dg",
+      "layer": "space",
+      "name": "空间单元",
+      "open": false
+    },
+    {
+      "id": "dg-projects",
+      "project": "dg",
+      "layer": "space",
+      "name": "空间产品与子项目",
+      "open": true
+    },
+    {
+      "id": "jz-context",
+      "project": "jz",
+      "layer": "brand",
+      "name": "定位依据与目标人群",
+      "open": false
+    },
+    {
+      "id": "jz-theme",
+      "project": "jz",
+      "layer": "brand",
+      "name": "品牌母题",
+      "open": true
+    },
+    {
+      "id": "jz-expression",
+      "project": "jz",
+      "layer": "brand",
+      "name": "宣言与体验原则",
+      "open": false
+    },
+    {
+      "id": "jz-narratives",
+      "project": "jz",
+      "layer": "organization",
+      "name": "核心叙事",
+      "open": true
+    },
+    {
+      "id": "jz-actions",
+      "project": "jz",
+      "layer": "organization",
+      "name": "行动计划",
+      "open": false
+    },
+    {
+      "id": "jz-units",
+      "project": "jz",
+      "layer": "space",
+      "name": "空间单元",
+      "open": false
+    },
+    {
+      "id": "jz-projects",
+      "project": "jz",
+      "layer": "space",
+      "name": "具体项目",
+      "open": true
+    },
+    {
+      "id": "jz-facilities",
+      "project": "jz",
+      "layer": "space",
+      "name": "设施配置建议",
+      "open": false
+    }
+  ],
+  "objects": [
+    {
+      "id": "DG-V01",
+      "project": "dg",
+      "group": "dg-context",
+      "title": "潮玩产业与地方价值",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-U01",
+      "project": "dg",
+      "group": "dg-context",
+      "title": "消费者、品牌与创作者",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-M01",
+      "project": "dg",
+      "group": "dg-theme",
+      "title": "东莞潮玩宇宙",
+      "description": "从制造资源到产业创新与文旅体验",
+      "parent": null,
+      "open": true
+    },
+    {
+      "id": "DG-E01",
+      "project": "dg",
+      "group": "dg-expression",
+      "title": "地方表达与产品品牌",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-N01",
+      "project": "dg",
+      "group": "dg-narratives",
+      "title": "看见制造，参与创造",
+      "description": "本次从原文归纳的核心叙事",
+      "parent": null,
+      "open": true
+    },
+    {
+      "id": "DG-N02",
+      "project": "dg",
+      "group": "dg-narratives",
+      "title": "以首发与消费感知潮玩之都",
+      "description": "本次从都市盲盒策划归纳",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-A01",
+      "project": "dg",
+      "group": "dg-actions",
+      "title": "打开前台",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-A02",
+      "project": "dg",
+      "group": "dg-actions",
+      "title": "做实首发",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-S01",
+      "project": "dg",
+      "group": "dg-units",
+      "title": "东莞站门户节点",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-S02",
+      "project": "dg",
+      "group": "dg-units",
+      "title": "南社古村建筑群节点",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-S03",
+      "project": "dg",
+      "group": "dg-units",
+      "title": "生态园—超朗村节点",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-S04",
+      "project": "dg",
+      "group": "dg-units",
+      "title": "潮玩古村节点",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-S05",
+      "project": "dg",
+      "group": "dg-units",
+      "title": "滨江古采石场节点",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-01",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "都市盲盒",
+      "description": "东莞站门户节点",
+      "parent": null,
+      "open": true
+    },
+    {
+      "id": "DG-PROD-02",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "情绪智能",
+      "description": "东莞站门户节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-P01",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "透明超级工厂",
+      "description": "源子项目编号 2-2",
+      "parent": "DG-PROD-02",
+      "open": false
+    },
+    {
+      "id": "DG-P02",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "潮玩柔性生产与私人定制中心",
+      "description": "源子项目编号 2-3",
+      "parent": "DG-PROD-02",
+      "open": false
+    },
+    {
+      "id": "DG-PROD-03",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "机匠乐园",
+      "description": "南社古村建筑群节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-04",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "超级工厂",
+      "description": "南社古村建筑群节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-05",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "南社新风",
+      "description": "南社古村建筑群节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-06",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "潮特莱斯",
+      "description": "生态园—超朗村节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-07",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "潮趣度假",
+      "description": "生态园—超朗村节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-08",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "潮玩寰宇",
+      "description": "生态园—超朗村节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-09",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "潮玩大道",
+      "description": "潮玩古村节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-10",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "潮玩学院",
+      "description": "潮玩古村节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-11",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "潮江商院",
+      "description": "滨江古采石场节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-PROD-12",
+      "project": "dg",
+      "group": "dg-projects",
+      "title": "欢乐江岸",
+      "description": "滨江古采石场节点",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "DG-S00",
+      "project": "dg",
+      "group": "dg-units",
+      "title": "片区总体空间",
+      "description": "整个片区的总平面表达",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-V01",
+      "project": "jz",
+      "group": "jz-context",
+      "title": "资源优势与连接问题",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-U01",
+      "project": "jz",
+      "group": "jz-context",
+      "title": "创新人群与全龄使用者",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-M01",
+      "project": "jz",
+      "group": "jz-theme",
+      "title": "海淀·AI 原生城市",
+      "description": "组织科研、产业、人才与城市资源",
+      "parent": null,
+      "open": true
+    },
+    {
+      "id": "JZ-E01",
+      "project": "jz",
+      "group": "jz-expression",
+      "title": "校内外都是创新力",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-E02",
+      "project": "jz",
+      "group": "jz-expression",
+      "title": "全龄段才是培育力",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-N01",
+      "project": "jz",
+      "group": "jz-narratives",
+      "title": "校园与城市共同创新",
+      "description": "本次从原文归纳的核心叙事",
+      "parent": null,
+      "open": true
+    },
+    {
+      "id": "JZ-N02",
+      "project": "jz",
+      "group": "jz-narratives",
+      "title": "全龄人群持续成长",
+      "description": "本次从原文归纳的核心叙事",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-A01",
+      "project": "jz",
+      "group": "jz-actions",
+      "title": "建设校城互联高线",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-A02",
+      "project": "jz",
+      "group": "jz-actions",
+      "title": "校城共创与创新服务平台",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-A03",
+      "project": "jz",
+      "group": "jz-actions",
+      "title": "全龄学习与成长服务",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-S01",
+      "project": "jz",
+      "group": "jz-units",
+      "title": "清华—八家—众智园沿线",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-S02",
+      "project": "jz",
+      "group": "jz-units",
+      "title": "北航西门与京张公园相关范围",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-S03",
+      "project": "jz",
+      "group": "jz-units",
+      "title": "一带三港的空间骨架",
+      "description": "",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-P01",
+      "project": "jz",
+      "group": "jz-projects",
+      "title": "清华—众智园创新高线",
+      "description": "原项目编号 GJ-01",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-P02",
+      "project": "jz",
+      "group": "jz-projects",
+      "title": "北航成长学苑",
+      "description": "原项目编号 JZ-07；一个项目主记录",
+      "parent": null,
+      "open": true
+    },
+    {
+      "id": "JZ-F13",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "企业综合服务站、政策与空间工单",
+      "description": "AI服务设施专题 / 产业",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F14",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "科技金融、知识产权、技术交易、国际化",
+      "description": "AI服务设施专题 / 产业",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F15",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "场景机会与首试首用撮合中心",
+      "description": "AI服务设施专题 / 产业",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F16",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "弹性算力与模型工具接入前端",
+      "description": "AI服务设施专题 / 科技",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F17",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "可信数据沙盒",
+      "description": "AI服务设施专题 / 科技",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F18",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "模型评测与安全测试",
+      "description": "AI服务设施专题 / 科技",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F19",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "PoC与原型验证中心",
+      "description": "AI服务设施专题 / 科技",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F20",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "共享实验室与仪器平台",
+      "description": "AI服务设施专题 / 科技",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F21",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "具身智能测试与中试验证",
+      "description": "AI服务设施专题 / 科技",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F22",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "孵化加速与共享研发",
+      "description": "AI服务设施专题 / 创新",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F23",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "开源与开发者社区",
+      "description": "AI服务设施专题 / 创新",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F24",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "发布路演、体验与展览",
+      "description": "AI服务设施专题 / 创新",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F25",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "人才服务、培训与工程实训",
+      "description": "AI服务设施专题 / 人才",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F26",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "国际短住、人才租赁住房",
+      "description": "AI服务设施专题 / 人才",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F27",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "数据合规、模型治理与标准认证",
+      "description": "AI服务设施专题 / 治理",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F28",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "AI+行业专用验证场",
+      "description": "AI服务设施专题 / 场景",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-F29",
+      "project": "jz",
+      "group": "jz-facilities",
+      "title": "高校社区AI-IP园专业验证组合",
+      "description": "AI服务设施专题 / 场景",
+      "parent": null,
+      "open": false
+    },
+    {
+      "id": "JZ-P03",
+      "project": "jz",
+      "group": "jz-projects",
+      "title": "众智园公共空间网络",
+      "description": "现状与方案成组保留",
+      "parent": null,
+      "open": false
+    }
+  ],
+  "materials": [
+    {
+      "id": "DG-V01-m1",
+      "object": "DG-V01",
+      "project": "dg",
+      "title": "产业定位依据",
+      "body": "潮玩的本质是IP型消费产品，“好”的IP仍然且越来越是行业的最大竞争力。\n本项目的核心是通过潮玩文旅重塑东莞潮玩产业的“微笑曲线”，\n实现从“世界代工工厂”到“世界潮玩坐标”的华丽转身。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 8,
+          "locator": "东莞为什么要做潮玩文旅",
+          "quote": "潮玩的本质是IP型消费产品，“好”的IP仍然且越来越是行业的最大竞争力。\n本项目的核心是通过潮玩文旅重塑东莞潮玩产业的“微笑曲线”，\n实现从“世界代工工厂”到“世界潮玩坐标”的华丽转身。"
+        }
+      ]
+    },
+    {
+      "id": "DG-V01-m2",
+      "object": "DG-V01",
+      "project": "dg",
+      "title": "产业与文旅的双飞轮",
+      "body": "利用全城全要素生产要素的天然优势，构建“产业-文旅”双飞轮，用文旅链拉动产业链的整体完型与延展。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 10,
+          "locator": "如何定义“中国潮玩之都”",
+          "quote": "利用全城全要素生产要素的天然优势，构建“产业-文旅”双飞轮，用文旅链拉动产业链的整体完型与延展。"
+        }
+      ]
+    },
+    {
+      "id": "DG-U01-m1",
+      "object": "DG-U01",
+      "project": "dg",
+      "title": "服务对象归纳",
+      "body": "消费者、品牌、设计师与创作者；具体产品中包括参观研学人群及定制用户。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 4,
+          "locator": "前言",
+          "quote": "它既是城市文旅目的地，也是产业创新平台；既是消费者的沉浸体验场域，也是品牌、设计师与创作者的生长土壤。"
+        }
+      ]
+    },
+    {
+      "id": "DG-M01-m1",
+      "object": "DG-M01",
+      "project": "dg",
+      "title": "母题原称",
+      "body": "东莞潮玩宇宙",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 4,
+          "locator": "前言末段",
+          "quote": "东莞潮玩宇宙"
+        }
+      ]
+    },
+    {
+      "id": "DG-M01-m2",
+      "object": "DG-M01",
+      "project": "dg",
+      "title": "母题释义",
+      "body": "把制造资源、工业遗址与古村落转为产业创新与文旅体验，形成东莞的地方辨识。母题归类与释义为本次整理。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 4,
+          "locator": "前言核心逻辑",
+          "quote": "将东莞四十年制造业积累的产业资产、不可复制的工业遗址空间与百年历史的古村落以及产业链各环节的人才与资源系统性地转化为“具有全球竞争力的文旅目的地叙事资产。”"
+        }
+      ]
+    },
+    {
+      "id": "DG-E01-m1",
+      "object": "DG-E01",
+      "project": "dg",
+      "title": "地方语言表达",
+      "body": "中国潮玩之都，世界潮玩坐标。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 4,
+          "locator": "前言末段",
+          "quote": "中国潮玩之都，世界潮玩坐标。"
+        }
+      ]
+    },
+    {
+      "id": "DG-E01-m2",
+      "object": "DG-E01",
+      "project": "dg",
+      "title": "十二个空间产品的品牌表达",
+      "body": "图面展示十二个空间产品的名称、图形与“中国潮玩之都”的关联表达。本条是图件用途归纳。",
+      "kind": "图件",
+      "basis": "图件归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 12,
+          "locator": "六大产业板块与十二个空间产品体系",
+          "quote": "图面展示十二个空间产品的名称、图形与“中国潮玩之都”的关联表达。本条是图件用途归纳。"
+        }
+      ]
+    },
+    {
+      "id": "DG-N01-m1",
+      "object": "DG-N01",
+      "project": "dg",
+      "title": "核心叙事",
+      "body": "消费者与研学者通过观看生产、参与定制，理解东莞既有制造能力，也能提供智能玩具创新与体验。",
+      "kind": "文字",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 30,
+          "locator": "2-2、2-3 行；结合第34页",
+          "quote": "全链路透明生产线；玻璃幕墙走廊参观动线；消费者自助设计工作站；“看着自己的玩具被做出来”全程直播服务。"
+        }
+      ]
+    },
+    {
+      "id": "DG-N01-m2",
+      "object": "DG-N01",
+      "project": "dg",
+      "title": "参与方式与预期认识",
+      "body": "参与方式：参观制造、学习技术、选择款式与定制。预期认识：生产能力可被体验，并与设计创造连接。该判断未由运营效果验证。",
+      "kind": "文字",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "打开前台及价值闭环",
+          "quote": "把生产线、定制、直播和住宿转化为消费体验。"
+        }
+      ]
+    },
+    {
+      "id": "DG-N02-m1",
+      "object": "DG-N02",
+      "project": "dg",
+      "title": "核心叙事",
+      "body": "游客、消费者与行业参与者通过城市展示、新品首发和品牌活动，理解东莞的潮玩产业与文化形象。",
+      "kind": "文字",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "核心定位、做实首发",
+          "quote": "承担城市展示、活动首发、品牌消费、产业服务和全片区客流分发五重功能。"
+        }
+      ]
+    },
+    {
+      "id": "DG-A01-m1",
+      "object": "DG-A01",
+      "project": "dg",
+      "title": "行动任务",
+      "body": "启动透明超级工厂、私人定制中心与情绪智能酒店，把生产线、定制、直播和住宿转化为消费体验。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "三阶段落地路径第02项",
+          "quote": "启动透明超级工厂、私人定制中心与情绪智能酒店，把生产线、定制、直播和住宿转化为消费体验。"
+        }
+      ]
+    },
+    {
+      "id": "DG-A02-m1",
+      "object": "DG-A02",
+      "project": "dg",
+      "title": "行动任务",
+      "body": "导入快闪首发位、沉浸式剧场、品牌发布会、买手会、金赏奖、直播基地，形成年度/季度/月度事件年历。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "三阶段落地路径第02项",
+          "quote": "导入快闪首发位、沉浸式剧场、品牌发布会、买手会、金赏奖、直播基地，形成年度/季度/月度事件年历。"
+        }
+      ]
+    },
+    {
+      "id": "DG-S01-m1",
+      "object": "DG-S01",
+      "project": "dg",
+      "title": "节点范围记录",
+      "body": "东莞站门户节点。本条仅定位到方案节点，具体用地与建筑边界未在本次拆解中核定。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 19,
+          "locator": "五个城市核心节点",
+          "quote": "东莞站门户节点"
+        }
+      ]
+    },
+    {
+      "id": "DG-S02-m1",
+      "object": "DG-S02",
+      "project": "dg",
+      "title": "节点范围记录",
+      "body": "南社古村建筑群节点。本条仅定位到方案节点，具体用地与建筑边界未在本次拆解中核定。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 19,
+          "locator": "五个城市核心节点",
+          "quote": "南社古村建筑群节点"
+        }
+      ]
+    },
+    {
+      "id": "DG-S03-m1",
+      "object": "DG-S03",
+      "project": "dg",
+      "title": "节点范围记录",
+      "body": "生态园—超朗村节点。本条仅定位到方案节点，具体用地与建筑边界未在本次拆解中核定。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 19,
+          "locator": "五个城市核心节点",
+          "quote": "生态园—超朗村节点"
+        }
+      ]
+    },
+    {
+      "id": "DG-S04-m1",
+      "object": "DG-S04",
+      "project": "dg",
+      "title": "节点范围记录",
+      "body": "潮玩古村节点。本条仅定位到方案节点，具体用地与建筑边界未在本次拆解中核定。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 20,
+          "locator": "五个城市核心节点",
+          "quote": "潮玩古村节点"
+        }
+      ]
+    },
+    {
+      "id": "DG-S05-m1",
+      "object": "DG-S05",
+      "project": "dg",
+      "title": "节点范围记录",
+      "body": "滨江古采石场节点。本条仅定位到方案节点，具体用地与建筑边界未在本次拆解中核定。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 20,
+          "locator": "五个城市核心节点",
+          "quote": "滨江古采石场节点"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m1",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "依托东莞站门户流量，集城市客厅、潮玩会商与首发中心、潮玩天街、供应链服务、文旅交通接驳于一体，承担城市展示、活动首发、品牌消费、产业服务和全片区客流分发五重功能。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "核心定位",
+          "quote": "依托东莞站门户流量，集城市客厅、潮玩会商与首发中心、潮玩天街、供应链服务、文旅交通接驳于一体，承担城市展示、活动首发、品牌消费、产业服务和全片区客流分发五重功能。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m2",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "城市客厅·一站式服务枢纽,潮玩会商中心·首发中心,潮玩天街商业中心,潮玩产业供应链服务中心,文旅交通接驳中心。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "功能构成",
+          "quote": "城市客厅·一站式服务枢纽,潮玩会商中心·首发中心,潮玩天街商业中心,潮玩产业供应链服务中心,文旅交通接驳中心。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m3",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "建设量",
+      "body": "30-35万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "建设量",
+          "quote": "30-35万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m4",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "45 – 50 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "投资估算",
+          "quote": "45 – 50 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m5",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "阶段01 · 先做入口",
+      "body": "启动城市客厅与文旅接驳中心；完成站城导览、游客集散、行李寄存、多语服务、跨境电商与版权咨询轻量窗口。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "三阶段落地路径第01项",
+          "quote": "启动城市客厅与文旅接驳中心；完成站城导览、游客集散、行李寄存、多语服务、跨境电商与版权咨询轻量窗口。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m6",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "阶段02 · 做实首发",
+      "body": "导入快闪首发位、沉浸式剧场、品牌发布会、买手会、金赏奖、直播基地，形成年度/季度/月度事件年历。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "三阶段落地路径第02项",
+          "quote": "导入快闪首发位、沉浸式剧场、品牌发布会、买手会、金赏奖、直播基地，形成年度/季度/月度事件年历。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m7",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "阶段03 · 升级平台",
+      "body": "完善天街商业和供应链服务中心，叠加检测认证、版权登记、授权交易、供应链金融，形成产业总入口。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 32,
+          "locator": "三阶段落地路径第03项",
+          "quote": "完善天街商业和供应链服务中心，叠加检测认证、版权登记、授权交易、供应链金融，形成产业总入口。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-02-m1",
+      "object": "DG-PROD-02",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "由AI毛绒玩具产业基地、透明超级工厂、柔性生产与私人定制中心、情绪智能主题酒店、AI玩具赋能中心构成，将情感计算、语音交互、传感器、芯片模组和柔性生产整合为智能物种全链条。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "核心定位",
+          "quote": "由AI毛绒玩具产业基地、透明超级工厂、柔性生产与私人定制中心、情绪智能主题酒店、AI玩具赋能中心构成，将情感计算、语音交互、传感器、芯片模组和柔性生产整合为智能物种全链条。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-02-m2",
+      "object": "DG-PROD-02",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "大湾区AI毛绒玩具产业基地｜透明超级工厂｜柔性生产与私人定制中心｜情绪智能酒店｜AI玩具赋能中心",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "功能构成",
+          "quote": "大湾区AI毛绒玩具产业基地｜透明超级工厂｜柔性生产与私人定制中心｜情绪智能酒店｜AI玩具赋能中心"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-02-m3",
+      "object": "DG-PROD-02",
+      "project": "dg",
+      "title": "建设量",
+      "body": "30-40万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "建设量",
+          "quote": "30-40万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-02-m4",
+      "object": "DG-PROD-02",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "35 – 40 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "投资估算",
+          "quote": "35 – 40 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-02-m5",
+      "object": "DG-PROD-02",
+      "project": "dg",
+      "title": "阶段01 · 先聚产业",
+      "body": "落地AI毛绒产业基地，导入研发设计、电子集成、智能装备、供应链管理、品质检测与物流仓储企业。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "三阶段落地路径第01项",
+          "quote": "落地AI毛绒产业基地，导入研发设计、电子集成、智能装备、供应链管理、品质检测与物流仓储企业。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-02-m6",
+      "object": "DG-PROD-02",
+      "project": "dg",
+      "title": "阶段02 · 打开前台",
+      "body": "启动透明超级工厂、私人定制中心与情绪智能酒店，把生产线、定制、直播和住宿转化为消费体验。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "三阶段落地路径第02项",
+          "quote": "启动透明超级工厂、私人定制中心与情绪智能酒店，把生产线、定制、直播和住宿转化为消费体验。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-02-m7",
+      "object": "DG-PROD-02",
+      "project": "dg",
+      "title": "阶段03 · 做强技术平台",
+      "body": "以AI玩具赋能中心导入AIGC、IP数字化、测试认证、产学研合作、创业加速器和国际技术合作。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 34,
+          "locator": "三阶段落地路径第03项",
+          "quote": "以AI玩具赋能中心导入AIGC、IP数字化、测试认证、产学研合作、创业加速器和国际技术合作。"
+        }
+      ]
+    },
+    {
+      "id": "DG-P01-m1",
+      "object": "DG-P01",
+      "project": "dg",
+      "title": "项目任务",
+      "body": "任务：AI毛绒玩具全链路透明生产线、玻璃幕墙走廊、情感AI模组植入演示、研学专项课程。",
+      "kind": "任务",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 30,
+          "locator": "2-2 行",
+          "quote": "任务：AI毛绒玩具全链路透明生产线、玻璃幕墙走廊、情感AI模组植入演示、研学专项课程。"
+        }
+      ]
+    },
+    {
+      "id": "DG-P01-m2",
+      "object": "DG-P01",
+      "project": "dg",
+      "title": "规模（子项目表口径）",
+      "body": "8.7万㎡；此处保留子项目表口径，不与产品落地页自动汇总。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 30,
+          "locator": "2-2 行",
+          "quote": "8.7万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-P02-m1",
+      "object": "DG-P02",
+      "project": "dg",
+      "title": "项目任务",
+      "body": "任务：基础、深度与品牌定制，自助设计工作站、柔性生产线、制作过程直播与娃衣工坊。",
+      "kind": "任务",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 30,
+          "locator": "2-3 行",
+          "quote": "任务：基础、深度与品牌定制，自助设计工作站、柔性生产线、制作过程直播与娃衣工坊。"
+        }
+      ]
+    },
+    {
+      "id": "DG-P02-m2",
+      "object": "DG-P02",
+      "project": "dg",
+      "title": "规模（子项目表口径）",
+      "body": "13.5万㎡；此处保留子项目表口径，不与产品落地页自动汇总。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 30,
+          "locator": "2-3 行",
+          "quote": "13.5万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-03-m1",
+      "object": "DG-PROD-03",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "以工业遗存、退役模具、工厂废料和制造记忆为基础，构建工业美学景观、模具博物馆、二创工坊、重生实验室、工业主题乐园、原厂市集和工匠教育中心。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 42,
+          "locator": "核心定位",
+          "quote": "以工业遗存、退役模具、工厂废料和制造记忆为基础，构建工业美学景观、模具博物馆、二创工坊、重生实验室、工业主题乐园、原厂市集和工匠教育中心。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-03-m2",
+      "object": "DG-PROD-03",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "科幻机匠公园｜模具博物馆｜工厂废料二创工坊｜重生实验室｜工业主题乐园｜制造美食街｜潮玩原厂市集｜工匠教育中心",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 42,
+          "locator": "功能构成",
+          "quote": "科幻机匠公园｜模具博物馆｜工厂废料二创工坊｜重生实验室｜工业主题乐园｜制造美食街｜潮玩原厂市集｜工匠教育中心"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-03-m3",
+      "object": "DG-PROD-03",
+      "project": "dg",
+      "title": "建设量",
+      "body": "20-30万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 42,
+          "locator": "建设量",
+          "quote": "20-30万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-03-m4",
+      "object": "DG-PROD-03",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "40-50 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 42,
+          "locator": "投资估算",
+          "quote": "40-50 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-03-m5",
+      "object": "DG-PROD-03",
+      "project": "dg",
+      "title": "阶段01 · 工业可见",
+      "body": "先做科幻机匠公园、模具博物馆和原厂市集，形成城市级视觉锚点、工业制造叙事与本土消费入口。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 42,
+          "locator": "三阶段落地路径第01项",
+          "quote": "先做科幻机匠公园、模具博物馆和原厂市集，形成城市级视觉锚点、工业制造叙事与本土消费入口。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-03-m6",
+      "object": "DG-PROD-03",
+      "project": "dg",
+      "title": "阶段02 · 工业可玩",
+      "body": "推进废料二创工坊、重生实验室和可参与工厂，把模具、废料、沉睡IP转化为创作与体验产品",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 42,
+          "locator": "三阶段落地路径第02项",
+          "quote": "推进废料二创工坊、重生实验室和可参与工厂，把模具、废料、沉睡IP转化为创作与体验产品"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-03-m7",
+      "object": "DG-PROD-03",
+      "project": "dg",
+      "title": "阶段03 · 工业可传播",
+      "body": "完善制造美食街与工匠教育中心，打造机匠创作节、研学课程和大湾区工业设计体验活动。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 42,
+          "locator": "三阶段落地路径第03项",
+          "quote": "完善制造美食街与工匠教育中心，打造机匠创作节、研学课程和大湾区工业设计体验活动。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-04-m1",
+      "object": "DG-PROD-04",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "由智能制造应用型企业总部、研发型总部、中小型具身企业院落总部、展示中心、透明工厂参观线和商务服务构成，形成总部经济、技术展示、工业文旅一体化平台。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 44,
+          "locator": "核心定位",
+          "quote": "由智能制造应用型企业总部、研发型总部、中小型具身企业院落总部、展示中心、透明工厂参观线和商务服务构成，形成总部经济、技术展示、工业文旅一体化平台。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-04-m2",
+      "object": "DG-PROD-04",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "智能制造应用型企业总部集群｜研发型总部集群｜中小具身企业院落总部｜具身智能·航天潮玩展示中心｜透明工厂参观文旅线｜配套商务服务",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 44,
+          "locator": "功能构成",
+          "quote": "智能制造应用型企业总部集群｜研发型总部集群｜中小具身企业院落总部｜具身智能·航天潮玩展示中心｜透明工厂参观文旅线｜配套商务服务"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-04-m3",
+      "object": "DG-PROD-04",
+      "project": "dg",
+      "title": "建设量",
+      "body": "25.6万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 44,
+          "locator": "建设量",
+          "quote": "25.6万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-04-m4",
+      "object": "DG-PROD-04",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "26-32亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 44,
+          "locator": "投资估算",
+          "quote": "26-32亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-04-m5",
+      "object": "DG-PROD-04",
+      "project": "dg",
+      "title": "阶段01 · 导入总部",
+      "body": "优先布局应用型总部与研发型总部，引入具身智能整机企业、关键零部件企业和航天潮玩制造企业。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 44,
+          "locator": "三阶段落地路径第01项",
+          "quote": "优先布局应用型总部与研发型总部，引入具身智能整机企业、关键零部件企业和航天潮玩制造企业。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-04-m6",
+      "object": "DG-PROD-04",
+      "project": "dg",
+      "title": "阶段02 · 打开展示",
+      "body": "落地展示中心与透明工厂参观线，组织机器人装配、航天潮玩生产、VR/AR体验和工业参观票务。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 44,
+          "locator": "三阶段落地路径第02项",
+          "quote": "落地展示中心与透明工厂参观线，组织机器人装配、航天潮玩生产、VR/AR体验和工业参观票务。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-04-m7",
+      "object": "DG-PROD-04",
+      "project": "dg",
+      "title": "阶段03 · 完善服务",
+      "body": "补齐中小企业院落总部、共享测试场、产业服务中心、基金办公室、人才公寓与商务配套。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 44,
+          "locator": "三阶段落地路径第03项",
+          "quote": "补齐中小企业院落总部、共享测试场、产业服务中心、基金办公室、人才公寓与商务配套。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-05-m1",
+      "object": "DG-PROD-05",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "依托宗祠、古宅、水系、广场和古村肌理，通过国风内容、AR数字叠加、演艺节庆、非遗联名，把古村从静态遗存转化为可进入、可夜游、可消费、可传播的沉浸式戏剧场。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 48,
+          "locator": "核心定位",
+          "quote": "依托宗祠、古宅、水系、广场和古村肌理，通过国风内容、AR数字叠加、演艺节庆、非遗联名，把古村从静态遗存转化为可进入、可夜游、可消费、可传播的沉浸式戏剧场。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-05-m2",
+      "object": "DG-PROD-05",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "谢氏大宗祠·次元剧场主舞台｜古宅群落·IP场景还原体验区｜古村水系·花灯龙舟仪式场｜沉浸式互动演出｜非遗文创活化中心｜研学基地｜星光夜市",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 48,
+          "locator": "功能构成",
+          "quote": "谢氏大宗祠·次元剧场主舞台｜古宅群落·IP场景还原体验区｜古村水系·花灯龙舟仪式场｜沉浸式互动演出｜非遗文创活化中心｜研学基地｜星光夜市"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-05-m3",
+      "object": "DG-PROD-05",
+      "project": "dg",
+      "title": "建设量",
+      "body": "3-4万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 48,
+          "locator": "建设量",
+          "quote": "3-4万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-05-m4",
+      "object": "DG-PROD-05",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "4-6 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 48,
+          "locator": "投资估算",
+          "quote": "4-6 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-05-m5",
+      "object": "DG-PROD-05",
+      "project": "dg",
+      "title": "阶段01 · 主舞台成形",
+      "body": "以谢氏大宗祠、古宅群和水系为核心，完成轻干预改造、基础展陈、AR叠加和夜游灯光系统。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 48,
+          "locator": "三阶段落地路径第01项",
+          "quote": "以谢氏大宗祠、古宅群和水系为核心，完成轻干预改造、基础展陈、AR叠加和夜游灯光系统。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-05-m6",
+      "object": "DG-PROD-05",
+      "project": "dg",
+      "title": "阶段02 · 节庆事件化",
+      "body": "推出历史架空演出、花灯节、龙舟仪式、国风互动演出和非遗体验，用节庆拉高传播与客流。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 48,
+          "locator": "三阶段落地路径第02项",
+          "quote": "推出历史架空演出、花灯节、龙舟仪式、国风互动演出和非遗体验，用节庆拉高传播与客流。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-05-m7",
+      "object": "DG-PROD-05",
+      "project": "dg",
+      "title": "阶段03 · 夜间运营化",
+      "body": "完善研学课程和星光夜市，把演艺、市集、餐饮、非遗零售与夜游联动为全时消费。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 48,
+          "locator": "三阶段落地路径第03项",
+          "quote": "完善研学课程和星光夜市，把演艺、市集、餐饮、非遗零售与夜游联动为全时消费。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-06-m1",
+      "object": "DG-PROD-06",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "由潮玩奥莱折扣街区、前店后厂体验店、私人定制中心、欢乐聚场、潮玩剧场、潮玩博物馆·小小世界、娃衣手工制作村组成，形成“买得到、玩得到、做得到、看得到”的潮玩商业综合体。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 56,
+          "locator": "核心定位",
+          "quote": "由潮玩奥莱折扣街区、前店后厂体验店、私人定制中心、欢乐聚场、潮玩剧场、潮玩博物馆·小小世界、娃衣手工制作村组成，形成“买得到、玩得到、做得到、看得到”的潮玩商业综合体。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-06-m2",
+      "object": "DG-PROD-06",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "潮玩奥特莱斯品牌折扣街区｜前店后厂体验店｜私人定制中心｜潮玩主题欢乐聚场｜潮玩剧场｜潮玩博物馆·小小世界｜牛过蓢娃衣手工制作村",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 56,
+          "locator": "功能构成",
+          "quote": "潮玩奥特莱斯品牌折扣街区｜前店后厂体验店｜私人定制中心｜潮玩主题欢乐聚场｜潮玩剧场｜潮玩博物馆·小小世界｜牛过蓢娃衣手工制作村"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-06-m3",
+      "object": "DG-PROD-06",
+      "project": "dg",
+      "title": "建设量",
+      "body": "10-12万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 56,
+          "locator": "建设量",
+          "quote": "10-12万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-06-m4",
+      "object": "DG-PROD-06",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "16-18亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 56,
+          "locator": "投资估算",
+          "quote": "16-18亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-06-m5",
+      "object": "DG-PROD-06",
+      "project": "dg",
+      "title": "阶段01 · 消费引擎",
+      "body": "启动奥莱折扣街区与前店后厂体验店，优先落地头部品牌、工厂参观购物动线和高性价比商品体系。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 56,
+          "locator": "三阶段落地路径第01项",
+          "quote": "启动奥莱折扣街区与前店后厂体验店，优先落地头部品牌、工厂参观购物动线和高性价比商品体系。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-06-m6",
+      "object": "DG-PROD-06",
+      "project": "dg",
+      "title": "阶段02 · 内容体验",
+      "body": "推进私人定制、欢乐聚场、潮玩剧场与小小世界，把购物升级为参观、观演、参与、收藏。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 56,
+          "locator": "三阶段落地路径第02项",
+          "quote": "推进私人定制、欢乐聚场、潮玩剧场与小小世界，把购物升级为参观、观演、参与、收藏。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-06-m7",
+      "object": "DG-PROD-06",
+      "project": "dg",
+      "title": "阶段03 · 创作者生态",
+      "body": "启动牛过蓢娃衣手工制作村，引入工作室、二创工坊和公共展廊，形成消费者与创作者互动。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 56,
+          "locator": "三阶段落地路径第03项",
+          "quote": "启动牛过蓢娃衣手工制作村，引入工作室、二创工坊和公共展廊，形成消费者与创作者互动。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-07-m1",
+      "object": "DG-PROD-07",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "以高端全服务酒店、潮玩主题酒店群、亲子主题酒店群、野奢酒店和文旅住宅构成多层级度假体系，在湿地生态与潮玩内容之间建立面向会奖、家庭、粉丝、自然度假与长期停留的产品组合。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 62,
+          "locator": "核心定位",
+          "quote": "以高端全服务酒店、潮玩主题酒店群、亲子主题酒店群、野奢酒店和文旅住宅构成多层级度假体系，在湿地生态与潮玩内容之间建立面向会奖、家庭、粉丝、自然度假与长期停留的产品组合。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-07-m2",
+      "object": "DG-PROD-07",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "高端全服务酒店｜潮玩主题酒店群｜亲子主题酒店群｜野奢酒店｜文旅住宅",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 62,
+          "locator": "功能构成",
+          "quote": "高端全服务酒店｜潮玩主题酒店群｜亲子主题酒店群｜野奢酒店｜文旅住宅"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-07-m3",
+      "object": "DG-PROD-07",
+      "project": "dg",
+      "title": "建设量",
+      "body": "16-20万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 62,
+          "locator": "建设量",
+          "quote": "16-20万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-07-m4",
+      "object": "DG-PROD-07",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "24-28 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 62,
+          "locator": "投资估算",
+          "quote": "24-28 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-07-m5",
+      "object": "DG-PROD-07",
+      "project": "dg",
+      "title": "阶段01 · 高端底盘",
+      "body": "先启动高端全服务酒店，建立会议、宴会、疗愈、泳池和全服务度假功能，承接商务会奖与家庭度假。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 62,
+          "locator": "三阶段落地路径第01项",
+          "quote": "先启动高端全服务酒店，建立会议、宴会、疗愈、泳池和全服务度假功能，承接商务会奖与家庭度假。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-07-m6",
+      "object": "DG-PROD-07",
+      "project": "dg",
+      "title": "阶段02 · 主题矩阵",
+      "body": "推进潮玩主题酒店、亲子酒店和野奢酒店，形成IP沉浸、亲子教育、自然疗愈三类体验。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 62,
+          "locator": "三阶段落地路径第02项",
+          "quote": "推进潮玩主题酒店、亲子酒店和野奢酒店，形成IP沉浸、亲子教育、自然疗愈三类体验。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-07-m7",
+      "object": "DG-PROD-07",
+      "project": "dg",
+      "title": "阶段03 · 社区延展",
+      "body": "导入文旅住宅与主题社区配套，让潮玩从短住体验进一步延展到长期停留和生活方式认同。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 62,
+          "locator": "三阶段落地路径第03项",
+          "quote": "导入文旅住宅与主题社区配套，让潮玩从短住体验进一步延展到长期停留和生活方式认同。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-08-m1",
+      "object": "DG-PROD-08",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "由潮玩寰宇数字中心、AI短剧梦工厂、三体宇宙·科幻森林、三体科幻酒店构成，将顶级科幻IP、数字化平台、短剧内容生产、主题办公和沉浸式住宿组合为科幻内容平台。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 64,
+          "locator": "核心定位",
+          "quote": "由潮玩寰宇数字中心、AI短剧梦工厂、三体宇宙·科幻森林、三体科幻酒店构成，将顶级科幻IP、数字化平台、短剧内容生产、主题办公和沉浸式住宿组合为科幻内容平台。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-08-m2",
+      "object": "DG-PROD-08",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "潮玩寰宇数字中心｜AI短剧梦工厂｜三体宇宙·科幻森林｜三体科幻酒店",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 64,
+          "locator": "功能构成",
+          "quote": "潮玩寰宇数字中心｜AI短剧梦工厂｜三体宇宙·科幻森林｜三体科幻酒店"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-08-m3",
+      "object": "DG-PROD-08",
+      "project": "dg",
+      "title": "建设量",
+      "body": "8-10万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 64,
+          "locator": "建设量",
+          "quote": "8-10万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-08-m4",
+      "object": "DG-PROD-08",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "16-20亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 64,
+          "locator": "投资估算",
+          "quote": "16-20亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-08-m5",
+      "object": "DG-PROD-08",
+      "project": "dg",
+      "title": "阶段01 · 数字底座",
+      "body": "优先启动数字中心，完成IP数字档案库、数字展览、数字交易、元宇宙体验和数字化服务体系。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 64,
+          "locator": "三阶段落地路径第01项",
+          "quote": "优先启动数字中心，完成IP数字档案库、数字展览、数字交易、元宇宙体验和数字化服务体系。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-08-m6",
+      "object": "DG-PROD-08",
+      "project": "dg",
+      "title": "阶段02 · 内容生产",
+      "body": "启动AI短剧梦工厂与科幻森林，形成IP短剧、达人孵化、主题办公、展览廊和周边首发。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 64,
+          "locator": "三阶段落地路径第02项",
+          "quote": "启动AI短剧梦工厂与科幻森林，形成IP短剧、达人孵化、主题办公、展览廊和周边首发。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-08-m7",
+      "object": "DG-PROD-08",
+      "project": "dg",
+      "title": "阶段03 · 沉浸住宿",
+      "body": "以三体科幻酒店为核心，整合AR/VR、实物机关、AI陪游和主题密室，形成可过夜科幻体验。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 64,
+          "locator": "三阶段落地路径第03项",
+          "quote": "以三体科幻酒店为核心，整合AR/VR、实物机关、AI陪游和主题密室，形成可过夜科幻体验。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-09-m1",
+      "object": "DG-PROD-09",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "由潮玩星光大道、旗舰IP主街、供应链生产服务及展销中心、创业孵化器与IP快速转化中心、IP授权交易中心、品牌展示带、电商直播基地组成，把设计、打样、转化、授权、交易和传播拉到一条街上。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 74,
+          "locator": "核心定位",
+          "quote": "由潮玩星光大道、旗舰IP主街、供应链生产服务及展销中心、创业孵化器与IP快速转化中心、IP授权交易中心、品牌展示带、电商直播基地组成，把设计、打样、转化、授权、交易和传播拉到一条街上。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-09-m2",
+      "object": "DG-PROD-09",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "旗舰IP聚集主街｜潮玩产业供应链生产服务中心及展销中心｜潮玩创业孵化器及IP快速转化中心｜IP授权交易中心｜潮玩大道品牌展示带｜电商直播基地",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 74,
+          "locator": "功能构成",
+          "quote": "旗舰IP聚集主街｜潮玩产业供应链生产服务中心及展销中心｜潮玩创业孵化器及IP快速转化中心｜IP授权交易中心｜潮玩大道品牌展示带｜电商直播基地"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-09-m3",
+      "object": "DG-PROD-09",
+      "project": "dg",
+      "title": "建设量",
+      "body": "20-25万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 74,
+          "locator": "建设量",
+          "quote": "20-25万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-09-m4",
+      "object": "DG-PROD-09",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "30-40亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 74,
+          "locator": "投资估算",
+          "quote": "30-40亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-09-m5",
+      "object": "DG-PROD-09",
+      "project": "dg",
+      "title": "阶段01 · 街区势能",
+      "body": "优先导入国内外头部旗舰、设计师快闪矩阵和IP联名餐饮，建立人气、辨识度与城市品牌街道展示。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 74,
+          "locator": "三阶段落地路径第01项",
+          "quote": "优先导入国内外头部旗舰、设计师快闪矩阵和IP联名餐饮，建立人气、辨识度与城市品牌街道展示。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-09-m6",
+      "object": "DG-PROD-09",
+      "project": "dg",
+      "title": "阶段02 · 产业前台",
+      "body": "启动供应链展销中心、IP授权交易中心与直播基地，把采购、打样、授权、直播传播前置到街区。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 74,
+          "locator": "三阶段落地路径第02项",
+          "quote": "启动供应链展销中心、IP授权交易中心与直播基地，把采购、打样、授权、直播传播前置到街区。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-09-m7",
+      "object": "DG-PROD-09",
+      "project": "dg",
+      "title": "阶段03 · IP加速",
+      "body": "落地创业孵化器和IP快速转化中心，形成创意原型、小批量试产、首发上市、融资对接的高效通道。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 74,
+          "locator": "三阶段落地路径第03项",
+          "quote": "落地创业孵化器和IP快速转化中心，形成创意原型、小批量试产、首发上市、融资对接的高效通道。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-10-m1",
+      "object": "DG-PROD-10",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "由核心教学区、古村落工作室集群、IP孵化公园、IP研发中心集群、人才青年小镇与生活配套组成，把教学、驻场创作、孵化、研发和青年生活统一为产教融合平台。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 76,
+          "locator": "核心定位",
+          "quote": "由核心教学区、古村落工作室集群、IP孵化公园、IP研发中心集群、人才青年小镇与生活配套组成，把教学、驻场创作、孵化、研发和青年生活统一为产教融合平台。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-10-m2",
+      "object": "DG-PROD-10",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "潮玩设计学院·核心教学区｜古村落工作室集群｜IP孵化公园｜IP研发中心集群｜人才青年小镇与生活配套",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 76,
+          "locator": "功能构成",
+          "quote": "潮玩设计学院·核心教学区｜古村落工作室集群｜IP孵化公园｜IP研发中心集群｜人才青年小镇与生活配套"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-10-m3",
+      "object": "DG-PROD-10",
+      "project": "dg",
+      "title": "建设量",
+      "body": "4-6万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 76,
+          "locator": "建设量",
+          "quote": "4-6万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-10-m4",
+      "object": "DG-PROD-10",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "6-8 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 76,
+          "locator": "投资估算",
+          "quote": "6-8 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-10-m5",
+      "object": "DG-PROD-10",
+      "project": "dg",
+      "title": "阶段01 · 教学核心",
+      "body": "搭建IP设计、工业造型、品牌运营、数字潮玩四个方向，建立联合共建和企业导师机制。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 76,
+          "locator": "三阶段落地路径第01项",
+          "quote": "搭建IP设计、工业造型、品牌运营、数字潮玩四个方向，建立联合共建和企业导师机制。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-10-m6",
+      "object": "DG-PROD-10",
+      "project": "dg",
+      "title": "阶段02 · 创作者生态",
+      "body": "启动古村落工作室集群与IP研发中心，引入设计师、艺术家驻场和企业真实命题。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 76,
+          "locator": "三阶段落地路径第02项",
+          "quote": "启动古村落工作室集群与IP研发中心，引入设计师、艺术家驻场和企业真实命题。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-10-m7",
+      "object": "DG-PROD-10",
+      "project": "dg",
+      "title": "阶段03 · 孵化生活",
+      "body": "落地IP孵化公园与青年小镇，叠加基金、版权、创意市集、公寓和社区配套。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 76,
+          "locator": "三阶段落地路径第03项",
+          "quote": "落地IP孵化公园与青年小镇，叠加基金、版权、创意市集、公寓和社区配套。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-11-m1",
+      "object": "DG-PROD-11",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "由城市文旅展览馆、文创工坊聚落、文创-文旅商学院、大帽子文创园改造、文旅学院宿舍与生活区组成，依托滨江古采石场和工业遗址环境，构建开放式文旅文创产业学院。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 84,
+          "locator": "核心定位",
+          "quote": "由城市文旅展览馆、文创工坊聚落、文创-文旅商学院、大帽子文创园改造、文旅学院宿舍与生活区组成，依托滨江古采石场和工业遗址环境，构建开放式文旅文创产业学院。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-11-m2",
+      "object": "DG-PROD-11",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "城市文旅展览馆｜文创工坊聚落｜文创-文旅商学院｜大帽子文创园改造｜文旅学院宿舍与生活区",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 84,
+          "locator": "功能构成",
+          "quote": "城市文旅展览馆｜文创工坊聚落｜文创-文旅商学院｜大帽子文创园改造｜文旅学院宿舍与生活区"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-11-m3",
+      "object": "DG-PROD-11",
+      "project": "dg",
+      "title": "建设量",
+      "body": "10-12万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 84,
+          "locator": "建设量",
+          "quote": "10-12万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-11-m4",
+      "object": "DG-PROD-11",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "16-24 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 84,
+          "locator": "投资估算",
+          "quote": "16-24 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-11-m5",
+      "object": "DG-PROD-11",
+      "project": "dg",
+      "title": "阶段01 · 展示与工坊",
+      "body": "先启动城市文旅展览馆和文创工坊，建立文旅历史、采石场遗址、工人记忆和工坊实践的可见场景。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 84,
+          "locator": "三阶段落地路径第01项",
+          "quote": "先启动城市文旅展览馆和文创工坊，建立文旅历史、采石场遗址、工人记忆和工坊实践的可见场景。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-11-m6",
+      "object": "DG-PROD-11",
+      "project": "dg",
+      "title": "阶段02 · 学院主体",
+      "body": "推进文创-文旅商学院，引入真实项目教学、企业导师制和文旅规划、运营、内容、数字化课程。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 84,
+          "locator": "三阶段落地路径第02项",
+          "quote": "推进文创-文旅商学院，引入真实项目教学、企业导师制和文旅规划、运营、内容、数字化课程。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-11-m7",
+      "object": "DG-PROD-11",
+      "project": "dg",
+      "title": "阶段03 · 园区生活",
+      "body": "完成大帽子文创园改造与宿舍生活区，形成面向师生、导师、设计师和公众开放的园区型社区。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 84,
+          "locator": "三阶段落地路径第03项",
+          "quote": "完成大帽子文创园改造与宿舍生活区，形成面向师生、导师、设计师和公众开放的园区型社区。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-12-m1",
+      "object": "DG-PROD-12",
+      "project": "dg",
+      "title": "产品定位",
+      "body": "依托滨江古采石场、赤石地貌、矿坑湖、湿地与滨水空间，构建赤石探秘、光影艺术、动物田园、河屿绿集、潮玩精品酒店等多元乐园与休闲产品。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 88,
+          "locator": "核心定位",
+          "quote": "依托滨江古采石场、赤石地貌、矿坑湖、湿地与滨水空间，构建赤石探秘、光影艺术、动物田园、河屿绿集、潮玩精品酒店等多元乐园与休闲产品。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-12-m2",
+      "object": "DG-PROD-12",
+      "project": "dg",
+      "title": "功能构成",
+      "body": "乐园A·赤石探秘｜乐园B·光影艺术｜乐园C·动物田园｜乐园D·河屿绿集｜潮玩精品酒店｜非标商业集群·休闲配套",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 88,
+          "locator": "功能构成",
+          "quote": "乐园A·赤石探秘｜乐园B·光影艺术｜乐园C·动物田园｜乐园D·河屿绿集｜潮玩精品酒店｜非标商业集群·休闲配套"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-12-m3",
+      "object": "DG-PROD-12",
+      "project": "dg",
+      "title": "建设量",
+      "body": "8-12万㎡\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 88,
+          "locator": "建设量",
+          "quote": "8-12万㎡"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-12-m4",
+      "object": "DG-PROD-12",
+      "project": "dg",
+      "title": "投资估算",
+      "body": "12 – 15 亿元\n沿用该页口径；估算与建议不视为核定结果，不与其他页面自动合计。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 88,
+          "locator": "投资估算",
+          "quote": "12 – 15 亿元"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-12-m5",
+      "object": "DG-PROD-12",
+      "project": "dg",
+      "title": "阶段01 · 标志体验",
+      "body": "以赤石探秘和河屿绿集为优先，打开峡谷穿越、工业攀登、矿坑漂流、滨水市集和露营休闲。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 88,
+          "locator": "三阶段落地路径第01项",
+          "quote": "以赤石探秘和河屿绿集为优先，打开峡谷穿越、工业攀登、矿坑漂流、滨水市集和露营休闲。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-12-m6",
+      "object": "DG-PROD-12",
+      "project": "dg",
+      "title": "阶段02 · 夜间引擎",
+      "body": "推进光影艺术和动物田园，导入投影秀、感应步道、IP光影森林、亲子课程和自然工坊。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 88,
+          "locator": "三阶段落地路径第02项",
+          "quote": "推进光影艺术和动物田园，导入投影秀、感应步道、IP光影森林、亲子课程和自然工坊。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-12-m7",
+      "object": "DG-PROD-12",
+      "project": "dg",
+      "title": "阶段03 · 度假升级",
+      "body": "补齐潮玩精品酒店和非标休闲配套，把半日游扩展为可停留、可露营、可过夜的度假目的地。",
+      "kind": "任务",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "B",
+          "page": 88,
+          "locator": "三阶段落地路径第03项",
+          "quote": "补齐潮玩精品酒店和非标休闲配套，把半日游扩展为可停留、可露营、可过夜的度假目的地。"
+        }
+      ]
+    },
+    {
+      "id": "DG-S00-m1",
+      "object": "DG-S00",
+      "project": "dg",
+      "title": "东莞片区城市设计总平面",
+      "body": "总平面图表达片区整体空间布局，并以子项目编号标注位置。此条记录只描述图件用途，不从图面推算新增指标。",
+      "kind": "图件",
+      "basis": "图件归纳",
+      "refs": [
+        {
+          "doc": "A",
+          "page": 27,
+          "locator": "图面及标注",
+          "quote": "城市设计总平面图 / URBAN DESIGN MASTERPLAN\n子项目编号示例：1-2、1-4、1-1、2-1、2-2、2-3、2-4、2-5。"
+        }
+      ]
+    },
+    {
+      "id": "DG-PROD-01-m8",
+      "object": "DG-PROD-01",
+      "project": "dg",
+      "title": "都市盲盒：会商首发场景",
+      "body": "效果图展示都市盲盒的会展、商业与首发场景。此条为图件内容概述，图片保留原文标注。",
+      "kind": "图件",
+      "basis": "图件归纳",
+      "refs": [
+        {
+          "doc": "A",
+          "page": 49,
+          "locator": "图面及标注",
+          "quote": "潮玩会赏快闪\n设置20个标准化快闪位，由品牌……（原文片段）"
+        }
+      ]
+    },
+    {
+      "id": "JZ-V01-m1",
+      "object": "JZ-V01",
+      "project": "jz",
+      "title": "定位依据",
+      "body": "高校、科研院所、企业之间仍存在物理边界和组织边界；科研成果出校门后，缺少快速概念验证和工程验证空间。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 76,
+          "locator": "总体城市设计：校内外都是创新力",
+          "quote": "高校、科研院所、企业之间仍存在物理边界和组织边界；科研成果出校门后，缺少快速概念验证和工程验证空间。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-U01-m1",
+      "object": "JZ-U01",
+      "project": "jz",
+      "title": "服务人群归纳",
+      "body": "科研人员、师生、创业团队及周边全龄使用者，分别对应协作、创新与持续学习情境。",
+      "kind": "文字",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 104,
+          "locator": "全龄段才是培育力；结合第9、17、325页",
+          "quote": "不同年龄、不同职业、不同领域的人群共同生活，把科学家公开课、AI通识教育、职业再成长、青少年科学教育和城市共创嵌入城市日常。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-M01-m1",
+      "object": "JZ-M01",
+      "project": "jz",
+      "title": "母题原称",
+      "body": "海淀·AI 原生城市",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 4,
+          "locator": "项目卷首",
+          "quote": "海淀·AI 原生城市"
+        }
+      ]
+    },
+    {
+      "id": "JZ-M01-m2",
+      "object": "JZ-M01",
+      "project": "jz",
+      "title": "母题释义",
+      "body": "通过组织科研、产业、人才、资本和城市资源，形成面向AI时代的新型城市生产关系。“品牌母题”的归类为本次整理。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 4,
+          "locator": "项目卷首",
+          "quote": "把海淀已有的科研、产业、人才、资本和城市资源，组织成一种面向AI时代的新型城市生产关系。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-M01-m3",
+      "object": "JZ-M01",
+      "project": "jz",
+      "title": "白皮书的五项主张",
+      "body": "真实场景、可信关系、协同共治、智能互联、全龄进化。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 5,
+          "locator": "AI原生城市白皮书",
+          "quote": "真实场景、可信关系、协同共治、智能互联、全龄进化。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-E01-m1",
+      "object": "JZ-E01",
+      "project": "jz",
+      "title": "宣言原称",
+      "body": "校内外都是创新力",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 8,
+          "locator": "海淀宣言",
+          "quote": "校内外都是创新力"
+        }
+      ]
+    },
+    {
+      "id": "JZ-E01-m2",
+      "object": "JZ-E01",
+      "project": "jz",
+      "title": "体验与服务要求",
+      "body": "通过开放实验室、共享科研平台、联合创新中心和“高校创新后街”，让科研成果进入城市，也让真实城市问题进入校园。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 9,
+          "locator": "宣言展开",
+          "quote": "通过开放实验室、共享科研平台、联合创新中心和“高校创新后街”，让科研成果进入城市，也让真实城市问题进入校园。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-E02-m1",
+      "object": "JZ-E02",
+      "project": "jz",
+      "title": "宣言原称",
+      "body": "全龄段才是培育力",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 16,
+          "locator": "海淀宣言",
+          "quote": "全龄段才是培育力"
+        }
+      ]
+    },
+    {
+      "id": "JZ-E02-m2",
+      "object": "JZ-E02",
+      "project": "jz",
+      "title": "体验与服务要求",
+      "body": "建设成长学苑等终身成长设施，把科学家公开课、AI通识教育、职业再成长、青少年科学教育和城市共创嵌入城市日常。",
+      "kind": "文字",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 17,
+          "locator": "宣言展开",
+          "quote": "建设成长学苑等终身成长设施，把科学家公开课、AI通识教育、职业再成长、青少年科学教育和城市共创嵌入城市日常。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-N01-m1",
+      "object": "JZ-N01",
+      "project": "jz",
+      "title": "核心叙事",
+      "body": "师生、科研人员与企业通过跨越校园边界的连接、共享与共创，感知创新在校园与城市之间持续发生。",
+      "kind": "文字",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 78,
+          "locator": "总体城市设计对应驱动力",
+          "quote": "突破边界，让科研成果进入城市，也让真实城市问题进入校园。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-N02-m1",
+      "object": "JZ-N02",
+      "project": "jz",
+      "title": "核心叙事",
+      "body": "不同年龄与职业的人通过学习、公开课、科创实践和交流，把AI与持续成长纳入城市日常。",
+      "kind": "文字",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 104,
+          "locator": "总体城市设计对应驱动力",
+          "quote": "把科学家公开课、AI通识教育、职业再成长、青少年科学教育和城市共创嵌入城市日常。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-A01-m1",
+      "object": "JZ-A01",
+      "project": "jz",
+      "title": "行动任务",
+      "body": "通过连续慢行系统跨越道路与空间边界，连接清华东北门、生态空间和产业园区，促进人才与知识流动。",
+      "kind": "任务",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 79,
+          "locator": "驱动力说明或项目清单",
+          "quote": "通过连续的立体慢行系统跨越现有道路及空间边界。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-A02-m1",
+      "object": "JZ-A02",
+      "project": "jz",
+      "title": "行动任务",
+      "body": "组织孵化、实验、成果展示和共享交流，为高校与城市的协作提供服务条件。本行动名称为整理归纳，原文未单列同名行动。",
+      "kind": "任务",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "驱动力说明或项目清单",
+          "quote": "JZ-07：依托北航学科优势打造产业创新与创业平台。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-A03-m1",
+      "object": "JZ-A03",
+      "project": "jz",
+      "title": "行动任务",
+      "body": "配置公共学习、科普、职业再成长和城市共创服务，让不同人群在日常中持续学习。",
+      "kind": "任务",
+      "basis": "研究归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 104,
+          "locator": "驱动力说明或项目清单",
+          "quote": "打造5大全民共享的文体公共设施。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-A02-m2",
+      "object": "JZ-A02",
+      "project": "jz",
+      "title": "实施与开放条件",
+      "body": "具体入口、路径、容量、面积、投资和开放时段需结合校方、资产及专项条件核定；专业园区与首发项目为规划建议。",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 431,
+          "locator": "模式选择与空间落位条件",
+          "quote": "具体入口、路径、容量、面积、投资和开放时段需结合校方、资产及专项条件核定；专业园区与首发项目为规划建议。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-S01-m1",
+      "object": "JZ-S01",
+      "project": "jz",
+      "title": "空间范围说明",
+      "body": "方案线位连接清华东北门、八家郊野公园和众智园，具体边界未在本次拆解中核定。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "项目位置列",
+          "quote": "方案线位连接清华东北门、八家郊野公园和众智园，具体边界未在本次拆解中核定。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-S02-m1",
+      "object": "JZ-S02",
+      "project": "jz",
+      "title": "空间范围说明",
+      "body": "方案位置为北京航空航天大学西门和京张遗址公园内；不替代正式用地及授权文件。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "项目位置列",
+          "quote": "方案位置为北京航空航天大学西门和京张遗址公园内；不替代正式用地及授权文件。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-S03-m1",
+      "object": "JZ-S03",
+      "project": "jz",
+      "title": "空间范围说明",
+      "body": "“一带”提供连续公共空间与创新网络，“三港”形成差异化产业与城市功能，共同构成AI原生城市的空间骨架。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 137,
+          "locator": "总体空间结构",
+          "quote": "“一带”提供连续公共空间与创新网络，“三港”形成差异化产业与城市功能，共同构成AI原生城市的空间骨架。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P01-m1",
+      "object": "JZ-P01",
+      "project": "jz",
+      "title": "项目目标与任务",
+      "body": "建立清华与众智园之间的校城慢行连接，串联清华东北门、八家郊野公园和众智园，使高校知识资源、生态空间与产业园区直接连通。",
+      "kind": "任务",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "GJ-01 行",
+          "quote": "建立清华与众智园之间的校城慢行连接，串联清华东北门、八家郊野公园和众智园，使高校知识资源、生态空间与产业园区直接连通。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P01-m2",
+      "object": "JZ-P01",
+      "project": "jz",
+      "title": "建设规模与方案时序",
+      "body": "连续慢行步道约3000米；原文计划近期（2026–2027）实施。此为方案时序，不代表已经开工。",
+      "kind": "指标",
+      "basis": "原文摘录＋状态提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "GJ-01 行",
+          "quote": "方案约3000米；近期（2026–2027）。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P01-m3",
+      "object": "JZ-P01",
+      "project": "jz",
+      "title": "实施与运营安排",
+      "body": "区政府牵头，清华与众智园产权单位联合；政府投资、平台公司代建；政府建设、多方共管与市场化活动运营。",
+      "kind": "任务",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "GJ-01 行",
+          "quote": "区政府牵头，清华与众智园产权单位联合；政府投资、平台公司代建；政府建设、多方共管与市场化活动运营。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P01-m4",
+      "object": "JZ-P01",
+      "project": "jz",
+      "title": "高线的空间设计表达",
+      "body": "图面将创新高线与共创街区、创新休闲带、创新后街共同表达，包含连续慢行连接示意。",
+      "kind": "图件",
+      "basis": "图件归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 79,
+          "locator": "B 一条校城互联高线",
+          "quote": "图面将创新高线与共创街区、创新休闲带、创新后街共同表达，包含连续慢行连接示意。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P02-m1",
+      "object": "JZ-P02",
+      "project": "jz",
+      "title": "项目定位",
+      "body": "面向AI时代的未来图书馆，为全年龄段提供终身学习与成长服务，并依托北航学科优势提供产业创新与创业平台。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "JZ-07 行",
+          "quote": "面向AI时代的未来图书馆，为全年龄段提供终身学习与成长服务，并依托北航学科优势提供产业创新与创业平台。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P02-m2",
+      "object": "JZ-P02",
+      "project": "jz",
+      "title": "创新与学习功能",
+      "body": "研发办公、科创孵化、公共服务、实验室、图书室、多功能活动厅；图面另标注创业大厅、创客工坊、户外讲堂和路演讲堂。",
+      "kind": "任务",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 300,
+          "locator": "图面标注；结合第325页",
+          "quote": "创业大厅、创客工坊、图书馆、户外讲堂、路演讲堂、共享实验室。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P02-m3",
+      "object": "JZ-P02",
+      "project": "jz",
+      "title": "规模与方案时序",
+      "body": "总建筑面积约6万㎡；原文列为中期（2028–2029）。规模和时序均按方案记录，不视为已核定或已实施。",
+      "kind": "指标",
+      "basis": "原文摘录＋状态提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "JZ-07 行",
+          "quote": "总建筑面积约6万㎡；中期（2028–2029）。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P02-m4",
+      "object": "JZ-P02",
+      "project": "jz",
+      "title": "主体与运营安排",
+      "body": "北航、区政府、区教委与街道联合；方案提出校地共建及高校、政府补贴、低收费运营。",
+      "kind": "任务",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 325,
+          "locator": "JZ-07 行",
+          "quote": "北航、区政府、区教委与街道联合；方案提出校地共建及高校、政府补贴、低收费运营。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P02-m5",
+      "object": "JZ-P02",
+      "project": "jz",
+      "title": "成长学苑空间图件",
+      "body": "图面展示知识环廊、图书馆、工坊、共享实验室、产业办公与户外测试等空间。",
+      "kind": "图件",
+      "basis": "图件归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 300,
+          "locator": "北航成长学苑图面",
+          "quote": "图面展示知识环廊、图书馆、工坊、共享实验室、产业办公与户外测试等空间。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P02-m6",
+      "object": "JZ-P02",
+      "project": "jz",
+      "title": "终身成长的设计表达",
+      "body": "在这里，人们可以学习一项技能，科学家也可以发起一个项目，让学习与创造贯穿一生。这是方案的体验设想。",
+      "kind": "文字",
+      "basis": "原文归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 301,
+          "locator": "终身成长学院说明",
+          "quote": "人们可以学习一项技能，科学家也可以发起一个项目，把真实问题带进城市，让学习与创造贯穿一生。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F13-m1",
+      "object": "JZ-F13",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "150–500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "企业综合服务站、政策与空间工单 行",
+          "quote": "150–500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F13-m2",
+      "object": "JZ-F13",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "临街或首层、可见、可分时",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "企业综合服务站、政策与空间工单 行",
+          "quote": "企业综合服务站、政策与空间工单\n150–500㎡\n临街或首层、可见、可分时\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F14-m1",
+      "object": "JZ-F14",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "300–1,200㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "科技金融、知识产权、技术交易、国际化 行",
+          "quote": "300–1,200㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F14-m2",
+      "object": "JZ-F14",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "独立洽谈、保密、路演联动",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "科技金融、知识产权、技术交易、国际化 行",
+          "quote": "科技金融、知识产权、技术交易、国际化\n300–1,200㎡\n独立洽谈、保密、路演联动\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F15-m1",
+      "object": "JZ-F15",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "500–1,500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "场景机会与首试首用撮合中心 行",
+          "quote": "500–1,500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F15-m2",
+      "object": "JZ-F15",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "展示、会议、采购与业主席位",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "场景机会与首试首用撮合中心 行",
+          "quote": "场景机会与首试首用撮合中心\n500–1,500㎡\n展示、会议、采购与业主席位\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F16-m1",
+      "object": "JZ-F16",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "200–600㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "弹性算力与模型工具接入前端 行",
+          "quote": "200–600㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F16-m2",
+      "object": "JZ-F16",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "双路网络、冷却、UPS、安全分区",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "弹性算力与模型工具接入前端 行",
+          "quote": "弹性算力与模型工具接入前端\n200–600㎡\n双路网络、冷却、UPS、安全分区\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F17-m1",
+      "object": "JZ-F17",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "500–1,500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "可信数据沙盒 行",
+          "quote": "500–1,500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F17-m2",
+      "object": "JZ-F17",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "物理与网络隔离、授权审计",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "可信数据沙盒 行",
+          "quote": "可信数据沙盒\n500–1,500㎡\n物理与网络隔离、授权审计\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F18-m1",
+      "object": "JZ-F18",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "800–2,500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "模型评测与安全测试 行",
+          "quote": "800–2,500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F18-m2",
+      "object": "JZ-F18",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "可控网络、测试集管理、保密",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "模型评测与安全测试 行",
+          "quote": "模型评测与安全测试\n800–2,500㎡\n可控网络、测试集管理、保密\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F19-m1",
+      "object": "JZ-F19",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "1,000–3,500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "PoC与原型验证中心 行",
+          "quote": "1,000–3,500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F19-m2",
+      "object": "JZ-F19",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "可变实验单元、设备物流、工程团队",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "PoC与原型验证中心 行",
+          "quote": "PoC与原型验证中心\n1,000–3,500㎡\n可变实验单元、设备物流、工程团队\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F20-m1",
+      "object": "JZ-F20",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "1,500–6,000㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "共享实验室与仪器平台 行",
+          "quote": "1,500–6,000㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F20-m2",
+      "object": "JZ-F20",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "按专业配置荷载、机电、排风",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "共享实验室与仪器平台 行",
+          "quote": "共享实验室与仪器平台\n1,500–6,000㎡\n按专业配置荷载、机电、排风\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F21-m1",
+      "object": "JZ-F21",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "3,000–10,000㎡以上\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "具身智能测试与中试验证 行",
+          "quote": "3,000–10,000㎡以上"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F21-m2",
+      "object": "JZ-F21",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "高荷载、货运、层高反推、室外试验边界",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "具身智能测试与中试验证 行",
+          "quote": "具身智能测试与中试验证\n3,000–10,000㎡以上\n高荷载、货运、层高反推、室外试验边界\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F22-m1",
+      "object": "JZ-F22",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "3,000–8,000㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "孵化加速与共享研发 行",
+          "quote": "3,000–8,000㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F22-m2",
+      "object": "JZ-F22",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "灵活分隔、共享会议、导师与资本席位",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "孵化加速与共享研发 行",
+          "quote": "孵化加速与共享研发\n3,000–8,000㎡\n灵活分隔、共享会议、导师与资本席位\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F23-m1",
+      "object": "JZ-F23",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "500–1,500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "开源与开发者社区 行",
+          "quote": "500–1,500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F23-m2",
+      "object": "JZ-F23",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "24小时、活动直播、开放工作站",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "开源与开发者社区 行",
+          "quote": "开源与开发者社区\n500–1,500㎡\n24小时、活动直播、开放工作站\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F24-m1",
+      "object": "JZ-F24",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "500–2,000㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "发布路演、体验与展览 行",
+          "quote": "500–2,000㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F24-m2",
+      "object": "JZ-F24",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "首层开放、可快速换展、声光电",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "发布路演、体验与展览 行",
+          "quote": "发布路演、体验与展览\n500–2,000㎡\n首层开放、可快速换展、声光电\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F25-m1",
+      "object": "JZ-F25",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "300–1,500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "人才服务、培训与工程实训 行",
+          "quote": "300–1,500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F25-m2",
+      "object": "JZ-F25",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "教学、咨询、企业联合运营",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "人才服务、培训与工程实训 行",
+          "quote": "人才服务、培训与工程实训\n300–1,500㎡\n教学、咨询、企业联合运营\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F26-m1",
+      "object": "JZ-F26",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "按专项需求测算\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "国际短住、人才租赁住房 行",
+          "quote": "按专项需求测算"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F26-m2",
+      "object": "JZ-F26",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "独立消防、独立流线、生活服务",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "国际短住、人才租赁住房 行",
+          "quote": "国际短住、人才租赁住房\n按专项需求测算\n独立消防、独立流线、生活服务\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F27-m1",
+      "object": "JZ-F27",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "500–1,500㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "数据合规、模型治理与标准认证 行",
+          "quote": "500–1,500㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F27-m2",
+      "object": "JZ-F27",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "保密、受控测试、审查和培训",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "数据合规、模型治理与标准认证 行",
+          "quote": "数据合规、模型治理与标准认证\n500–1,500㎡\n保密、受控测试、审查和培训\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F28-m1",
+      "object": "JZ-F28",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "按场景专项测算\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "AI+行业专用验证场 行",
+          "quote": "按场景专项测算"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F28-m2",
+      "object": "JZ-F28",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "行业监管、安全边界、真实用户与数据",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "AI+行业专用验证场 行",
+          "quote": "AI+行业专用验证场\n按场景专项测算\n行业监管、安全边界、真实用户与数据\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F29-m1",
+      "object": "JZ-F29",
+      "project": "jz",
+      "title": "建议规模",
+      "body": "L1 300–2,000㎡；L2 3,000–10,000㎡\n面积为共享或平台设施的启动建议区间，不含企业专属研发；具体规模按需求、设备和利用率校核。",
+      "kind": "指标",
+      "basis": "原文摘录＋口径提示",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "高校社区AI-IP园专业验证组合 行",
+          "quote": "L1 300–2,000㎡；L2 3,000–10,000㎡"
+        }
+      ]
+    },
+    {
+      "id": "JZ-F29-m2",
+      "object": "JZ-F29",
+      "project": "jz",
+      "title": "空间条件",
+      "body": "校园边界或近校载体；专业数据、验证、转化和共享客厅",
+      "kind": "条件",
+      "basis": "原文摘录",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 391,
+          "locator": "高校社区AI-IP园专业验证组合 行",
+          "quote": "高校社区AI-IP园专业验证组合\nL1 300–2,000㎡；L2 3,000–10,000㎡\n校园边界或近校载体；专业数据、验证、转化和共享客厅\n\n面积为共享或平台设施的启动建议区间，不含企业专属研发。具体规模按需求、设备和利用率校核。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P03-m1",
+      "object": "JZ-P03",
+      "project": "jz",
+      "title": "现状图与问题",
+      "body": "现状片区绿地零散分布、步行系统不成体系。三大公园各自孤立，小月河沿岸缺乏连续步道，街区内部公共空间严重不足。现状公共空间呈“点状散布”状态。",
+      "kind": "图件",
+      "basis": "图件归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 170,
+          "locator": "公共空间规划",
+          "quote": "3.2 众智园片区 /Zhongzhi Park Area\nBefore\n现状片区绿地零散分布、步行系统不成体系。三大公园各自孤立，小月河沿岸缺乏连续步\n道，街区内部公共空间严重不足。现状公共空间呈\"点状散布\"状态，难以支撑高频交流的\n创新社群需求。"
+        }
+      ]
+    },
+    {
+      "id": "JZ-P03-m2",
+      "object": "JZ-P03",
+      "project": "jz",
+      "title": "方案图与空间策略",
+      "body": "规划后形成“公园/绿廊+慢行道路+立体步道”三级公共空间网络。三大公园通过连续绿廊串联；片区内慢行系统与轨道站点衔接，内部里巷打通。",
+      "kind": "图件",
+      "basis": "图件归纳",
+      "refs": [
+        {
+          "doc": "JZ",
+          "page": 171,
+          "locator": "公共空间规划",
+          "quote": "After\n规划后形成\"公园/绿廊+慢行道路+立体步道\"三级公共空间网络。三大公园通过连续绿廊串联，\n京张公园沿线打造滨水活力带，片区内慢行系统与轨道站点无缝衔接，内部里巷打通形成毛细血\n管。真正实现\"开窗见绿、出门入园、步行可达\"的理想创新社区空间。"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "DG-M01",
+      "target": "DG-N01",
+      "contribution": "把制造价值转为观看与参与体验",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "DG-N01",
+      "target": "DG-A01",
+      "contribution": "为观看、定制提供条件",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "DG-A01",
+      "target": "DG-P01",
+      "contribution": "透明工厂让生产可见",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "DG-A01",
+      "target": "DG-P02",
+      "contribution": "定制中心让用户参与创造",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "DG-N02",
+      "target": "DG-A02",
+      "contribution": "首发活动形成公众感知",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "DG-A02",
+      "target": "DG-PROD-01",
+      "contribution": "都市盲盒承载首发与品牌活动",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-M01",
+      "target": "JZ-N01",
+      "contribution": "母题落实为校城共同创新的体验",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-M01",
+      "target": "JZ-N02",
+      "contribution": "母题落实为全龄持续成长",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-N01",
+      "target": "JZ-A01",
+      "contribution": "慢行连接提供交流条件",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-N01",
+      "target": "JZ-A02",
+      "contribution": "共创平台提供能力与服务",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-N02",
+      "target": "JZ-A03",
+      "contribution": "公共学习承接成长体验",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-A01",
+      "target": "JZ-P01",
+      "contribution": "高线承担空间连接任务",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-A02",
+      "target": "JZ-P02",
+      "contribution": "学苑承担孵化、实验与交流；主归属待确认",
+      "basis": "据原文归纳"
+    },
+    {
+      "source": "JZ-A03",
+      "target": "JZ-P02",
+      "contribution": "学苑也承担终身学习；协同关系待确认",
+      "basis": "据原文归纳"
+    }
+  ],
+  "sources": {
+    "A": {
+      "name": "A-设计说明-TEKUMA联合体.pdf"
+    },
+    "B": {
+      "name": "B-产业策划及资源导入清单-TEKUMA联合体.pdf"
+    },
+    "JZ": {
+      "name": "方案文册（1正19副）.pdf"
+    }
+  }
+}
